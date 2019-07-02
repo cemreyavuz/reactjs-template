@@ -1,0 +1,32 @@
+@import "common/colors.scss";
+@import "components/components.scss";
+@import "modules/modules.scss";
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+@import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
+
+html {
+  margin: 0;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+body {	
+  margin: 0;	
+  padding: 0;
+  -webkit-font-smoothing: antialiased;	
+  -moz-osx-font-smoothing: grayscale;	
+  height: 100%;
+}	
+
+.link {
+  color: #182026;
+  text-decoration: none;
+}
+
+.link :hover {
+  color: #182026;
+  text-decoration: none;
+}
