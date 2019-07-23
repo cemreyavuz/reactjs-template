@@ -1,6 +1,9 @@
 {
   "parser": "babel-eslint",
-  "extends": "airbnb",
+  "extends": [
+    "airbnb",
+    "plugin:cypress/recommended"
+  ],
   "globals": {
     "document": false,
     "localStorage": true,
@@ -20,5 +23,8 @@
       }],
       "import/no-unresolved": "off",
       "react/jsx-boolean-value": "off"
-  }
+  },
+  "plugins": [
+    "cypress"
+  ]
 }
